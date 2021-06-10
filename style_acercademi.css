@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,100&family=Overpass+Mono:wght@300;400;700&display=swap');
+
+/*
+list-style-type
+*/
+
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+
+.redes-sociales{
+    background-color:  #9b2c7f;
+    height: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-redes a{
+    color:rgb(245, 245, 245);
+}
+
+nav{
+    height: 80px;
+    background-color:#EBA9D6;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    font-family: 'Roboto';
+    
+}
+
+nav .logotipo-header img{
+    height: 55px;
+}
+
+nav .menu-navegacion ul{
+    display:flex;
+    list-style: none;
+    
+}
+
+nav .menu-navegacion ul li{
+    margin-right:30px;
+}
+
+.menu-navegacion a{
+    text-decoration: none;
+    color:  #9b2c7f;
+}
+
+.contenedor-redes i{
+    margin-right: 15px;
+}
+
+.contenedor-main{
+    margin: 0px;
+    background-color:rgb(142, 169, 177);
+    height: 120px;
+}
+.contenedor-main h1{
+    font-family:impact;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    margin: 0px;
+    color: #7EC9CC;
+
+}
+
+.contenedor-main p{
+    font-family: Times new roman;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+
+}
+
+.subtitulo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #fddcf3;
+    
+}
+
+.subtitulo-texto{
+    width: 37%;   
+}
+
+.subtitulo h2{
+    font-family: Impact;
+    font-size: 25px;
+    color: #753B63;
+    margin: 0px;
+    text-align: left;
+}
+
+.subtitulo p{
+    font-family: serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.subtitulo-img {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 40%;
+    margin: 0px;
+}
+
+.subtitulo img{
+    height: 350px;
+    border-radius: 10px;
+}
+
+
+
+.nombre-autor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#9b2c7f;
+    height: 70px;
+    color:#fff;
+    font-family:monospace;
+    font-size: 15px;
+
+}

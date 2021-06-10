@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    height: 100vh;
+} 
+
+.main-section{
+    height: 640px;
+    background-image: url("fondoo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-contenedor {
+    text-align: center;
+}
+
+.nombre {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    margin: 0px;
+    color:#5F1075;
+}
+
+.info {
+    font-family: serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+    color:#9b2c7f;
+}
+
+.main-section button{
+    font-family: monospace;
+    font-size: 25px;
+    width: 200px;
+    height: 65px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(160, 79, 133);
+    background: rgb(192, 158, 185);
+}
